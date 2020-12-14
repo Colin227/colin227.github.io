@@ -115,6 +115,10 @@ p.colorImgTxt {
     color: var(--text);
 }
 
+.contactTextWrap h1 {
+    font-weight: 400;
+}
+
 /* ********************************************* */
 /* navbar styling */
 
@@ -179,6 +183,15 @@ p.colorImgTxt {
 }
 .guessingWrap h1 {
     display: inline-block;
+}
+
+.contactInfo a:link, .contactInfo a:visited {
+    color: var(--text);
+}
+
+.contactInfo a:hover {
+    font-weight: bold;
+    
 }
 
 /* ************************************************ */
@@ -272,6 +285,8 @@ p.colorImgTxt {
         border: 2px solid var(--text);
     }
 
+
+
     
 }
 
@@ -291,3 +306,5 @@ p.colorImgTxt {
     --text-alt: var(--orange-0);
     --shadow: var(--shadow-black);
 }
+
+
