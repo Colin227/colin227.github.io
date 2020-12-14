@@ -270,6 +270,11 @@ p.colorImgTxt {
         justify-self: center;
 
     }
+    .project a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
     .guessingWrap h1 {
         display: block;
     }
@@ -290,7 +295,10 @@ p.colorImgTxt {
     
 }
 
-
+p.imgTxt {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 /* light theme */
 .light {
