@@ -20,7 +20,7 @@
 body {
     background: var(--bg);
     color: var(--text);
-    background-image: url(../img/wood0.jpg);
+    background-image: url(img/wood0.jpg);
     background-repeat: no-repeat;
 }
 main {
@@ -228,10 +228,6 @@ p.colorImgTxt {
     }
     .logo:hover, .nav-link:hover {
         text-decoration: underline solid var(--text);
-        
-    }
-    .logo:hover {
-        font-weight: 300;
     }
     .textWrap h1, .aboutTextWrap h1 {
         font-weight: 400;
