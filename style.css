@@ -167,7 +167,6 @@ p.colorImgTxt {
 .backPortfolio {
     float: left;
     text-align: left;
-    /* background: var(--bg); */
     margin-bottom: 5px;
 
 }
