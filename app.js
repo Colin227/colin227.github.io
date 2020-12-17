@@ -22,19 +22,12 @@ if (theme) {
 //switch between light and dark theme on buttonpress
 themeButton.addEventListener("click", function () {
     let x = document.body;
-    //let liBadge = document.getElementById("linkedin-badge");
     if (x.className === "dark") {
         x.classList.replace("dark", "light");
-        //liBadge.setAttribute("data-theme", "light");
         localStorage.setItem('theme', 'light');
-
-
     } else {
         x.classList.replace("light", "dark");
-        //liBadge.setAttribute("data-theme", "dark");
         localStorage.setItem('theme', 'dark');
-
-
     }
 });
 

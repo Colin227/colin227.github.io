@@ -307,7 +307,7 @@ p.imgTxt {
     --text-alt: var(--orange-0);
     --shadow: var(--shadow-black);
 }
-
+/*  dark theme */
 .dark {
     --bg: var(--bg-d-primary);
     --text: var(--white-0);
